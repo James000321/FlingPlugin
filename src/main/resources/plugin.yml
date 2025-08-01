@@ -1,0 +1,12 @@
+name: FlingPlugin
+version: 1.0
+main: com.yourname.fling.FlingPlugin
+api-version: "1.21"
+commands:
+  fling:
+    description: Fling a player into the air
+    usage: /fling <player>
+permissions:
+  fling.use:
+    description: Allows use of /fling
+    default: op
